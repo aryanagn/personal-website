@@ -44,7 +44,7 @@
     }
   });
 
-  // Activate/show sections on load with hash links
+  
   if (window.location.hash) {
     var initial_nav = window.location.hash;
     if ($(initial_nav).length) {
@@ -58,7 +58,7 @@
     }
   }
 
-  // Mobile Navigation
+  //Mobile Navigation
   if ($('.nav-menu').length) {
     var $mobile_nav = $('.nav-menu').clone().prop({
       class: 'mobile-nav d-lg-none'
@@ -87,7 +87,7 @@
     $(".mobile-nav, .mobile-nav-toggle").hide();
   }
 
-  // jQuery counterUp
+  
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 1000
@@ -102,7 +102,7 @@
     offset: '80%'
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
+  //  Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
