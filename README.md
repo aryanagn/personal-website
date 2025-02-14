@@ -1,6 +1,5 @@
 # My Personal Website is live!
 
-Check it out at https://aryanagn.github.io/personal-website/
 
 Built using HTML, CSS, bootstrap and JavaScript to showcase details about me and my projects/work experience!
 
